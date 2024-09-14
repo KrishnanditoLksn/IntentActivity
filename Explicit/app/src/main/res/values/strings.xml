@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Pick Me</string>
+    <string name="button1_description">Another act</string>
+    <string name="hey_you_read_me_from_sky">Hey you read me from Sky</string>
+    <string name="move_with_data">Move Dude\n</string>
+    <string name="datasRcv">Lorem Ipsum \n</string>
+</resources>
