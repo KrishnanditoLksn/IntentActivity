@@ -4,4 +4,14 @@
     <string name="hey_you_read_me_from_sky">Hey you read me from Sky</string>
     <string name="move_with_data">Move Dude\n</string>
     <string name="datasRcv">Lorem Ipsum \n</string>
+    <string name="hey_lets_move_with_parcelable">Hey lets move with parcelable</string>
+    <string name="implement_a_implicit_intent">Implement a Google Photos</string>
+    <string name="choose_player">choose_player</string>
+    <string name="lorem_ipsum">Lorem Ipsum</string>
+    <string name="choose">Choose</string>
+    <string name="move_dengan_result">Move dengan Result</string>
+    <string name="messi">Lionel Messi</string>
+    <string name="ronaldo">Cristiano Ronaldo</string>
+    <string name="mbappe">Kylian Mbappe</string>
+    <string name="neymar">Neymar Jr</string>
 </resources>

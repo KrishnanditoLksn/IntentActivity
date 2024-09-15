@@ -12,8 +12,8 @@
         android:id="@+id/button_id_1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/button1_description"
         android:padding="15dp"
+        android:text="@string/button1_description"
         android:textColor="#FFFFFF">
     </Button>
 
@@ -24,4 +24,35 @@
         android:layout_marginBottom="16dp"
         android:text="@string/move_with_data">
     </Button>
+
+    <Button
+        android:id="@+id/btn_move_activity_object"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="@string/hey_lets_move_with_parcelable" />
+
+    <Button
+        android:id="@+id/btn_camera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="@string/implement_a_implicit_intent">
+    </Button>
+
+    <Button
+        android:id="@+id/btn_move_for_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="@string/move_dengan_result">
+    </Button>
+
+    <TextView
+        android:id="@+id/intent_result_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/datasRcv"
+        android:textSize="30sp">
+    </TextView>
 </LinearLayout>
