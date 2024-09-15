@@ -7,13 +7,10 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import app.ditodev.pickme.R
+import app.ditodev.pickme.data.`object`.Utils
 
 class DataMoveActivity : AppCompatActivity() {
 
-    companion object {
-        const val EXTRA_AGE = "extra_age"
-        const val EXTRA_NAME = "extra_name"
-    }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -26,10 +23,10 @@ class DataMoveActivity : AppCompatActivity() {
         }
 
         val rcvData: TextView = findViewById(R.id.textDataId)
-        val name = intent.getStringExtra(EXTRA_NAME)
-        val age = intent.getIntExtra(EXTRA_AGE, 0)
+        val name = intent.getStringExtra(Utils.EXTRA_AGE)
+        val age = intent.getStringExtra(Utils.EXTRA_AGE)
 
-        val text = "Hallo $name" +
+        val text = "Hallo $name \n" +
                 "Umurmu yaitu $age"
 
         rcvData.text = text
